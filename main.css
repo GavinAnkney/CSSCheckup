@@ -1,9 +1,57 @@
 body{
     background-color: tan;
 }
+.wrapper{
+    margin: 5px;
+}
 
-/* rule-set #1: Everything within the Why I love coding! class will have a darkred background. */
-.Why-I-love-coding{
-    background-color: darkred;
-    width: 25%;
+h1{
+    text-align: center;
+}
+
+#title-p{
+    text-align: center;
+}
+
+/* 3 */
+.border-style li{
+    margin: 5px;
+}
+
+.border-style li:nth-child(1){
+    border-style: dotted;
+    width: 20%;
+}
+
+.border-style li:nth-child(2){
+    border-style: dashed;
+    width: 20%;
+}
+
+.border-style li:nth-child(3){
+    border-style: solid;
+    width: 20%;
+}
+
+.border-style li:nth-child(4){
+    border-style: double;
+    width: 20%;
+}
+
+.nav{
+    position: fixed;
+    top: 150px;
+    right: 0px;
+    width: 250px;
+    background-color:green;
+    border: 3px solid brown;
+}
+
+/* 4 */
+p{
+    font-family: "Times New Romans";
+}
+
+h2{
+    font-family: "Arial";
 }
