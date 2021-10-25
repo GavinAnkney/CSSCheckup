@@ -1,0 +1,9 @@
+body{
+    background-color: tan;
+}
+
+/* rule-set #1: Everything within the Why I love coding! class will have a darkred background. */
+.Why-I-love-coding{
+    background-color: darkred;
+    width: 25%;
+}
